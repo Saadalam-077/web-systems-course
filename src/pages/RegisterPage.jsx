@@ -38,7 +38,7 @@ const RegisterPage = ({ onRegister, onNavigate }) => {
           <div>
             <label className="block text-slate-300 text-sm mb-2">Section</label>
             <select value={form.sectionNumber} onChange={(e) => setForm({...form, sectionNumber: e.target.value})} className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white focus:outline-none focus:border-blue-500">
-              {[101,102,103,104,105,106,107,108].map(s => <option key={s} value={s}>{s}</option>)}
+              {[469,470,495,496].map(s => <option key={s} value={s}>{s}</option>)}
             </select>
           </div>
 
