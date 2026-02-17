@@ -74,8 +74,10 @@ const RegisterPage = ({ onRegister, onNavigate }) => {
           <div>
             <label className="block text-slate-300 text-sm mb-2">Section | الشعبة</label>
             <select value={form.sectionNumber} onChange={(e) => setForm({...form, sectionNumber: e.target.value})} className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white focus:outline-none focus:border-blue-500" disabled={loading}>
-              <option value="547">547</option>
-              <option value="2871">2871</option>
+              <option value="469">469</option>
+              <option value="470">470</option>
+              <option value="495">495</option>
+              <option value="496">496</option>
             </select>
           </div>
 
